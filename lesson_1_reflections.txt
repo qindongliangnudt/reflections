@@ -1,0 +1,35 @@
+1. how did viewing a diff between two versions of a file help you see the 
+bug that was introduced?
+	如果旧版本中没有Bug存在，而新版本却有Bug存在，那么可以
+	确定的是，必然是新版本中与旧版本的不同部分引起了Bug，那么，
+	就可以一点一点地去除新版本中的修改，看看到什么时候，Bug消失，
+	就可以定位到产生Bug的修改。
+
+
+	关于版本控制，我想自己早就有这样的想法，我又想到之前是
+	怎么样实现版本控制的，就是每天把昨天的所有工作文件重新复制一份
+	然后将新的文件重新命名，在新的文件上开始新的工作，这样
+	每天的工作就是一个版本，即使出问题，也是只有一天的工作丢失。看来，这确实是一种非常原始的版本控制方法，有那么多好的方法和工具却不去使用，
+	真的是非常可惜！！（saving manual copies……）
+
+2. How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+	首先是在定位Bug的时候效率更高；
+
+3. What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+	使用Git进行自主提交跟家符合程序员的工作风格
+	Google Docs类似的自动保存提交功能适合编辑文档时使用
+
+4. Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+	当在进行一项工程的时候，显然，工程之间的各个文件是相互关联的，
+	那么一次可以提交相互关联的多个文件显然是更好的选择
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+6. How might using version control make you more confident to make changes that
+could break something?
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
