@@ -1,0 +1,6 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+
+2. How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+2. 暂存区与工作目录和版本库有何不同？你认为它具有什么价值？
